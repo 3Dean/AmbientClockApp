@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#000000</color>
+    <color name="time_text_color">#FFFFFF</color>
+    <color name="date_text_color">#CCCCCC</color>
+    <color name="hint_text_color">#888888</color>
+</resources>

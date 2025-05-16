@@ -1,0 +1,2 @@
+rootProject.name = 'AmbientClockApp_Java11'
+include ':app'

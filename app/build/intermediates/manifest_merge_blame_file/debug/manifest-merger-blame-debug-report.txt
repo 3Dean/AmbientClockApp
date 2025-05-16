@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.firetvclockapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-feature
+11-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.touchscreen"
+12-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:6:9-52
+13        android:required="false" />
+13-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:7:9-33
+14    <uses-feature
+14-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:9:5-11:35
+15        android:name="android.software.leanback"
+15-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:10:9-49
+16        android:required="true" />
+16-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:11:9-32
+17
+18    <application
+18-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:13:5-32:19
+19        android:allowBackup="true"
+19-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.8.0] C:\Users\dean\.gradle\caches\8.12\transforms\342212979de38929e11d9b18009c39e1\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="true"
+23        android:icon="@mipmap/ic_launcher"
+23-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:15:9-43
+24        android:label="@string/app_name"
+24-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:16:9-41
+25        android:supportsRtl="true"
+25-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Leanback" >
+27-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:18:9-46
+28        <activity
+28-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:20:9-31:20
+29            android:name="com.example.firetvclockapp.MainActivity"
+29-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:21:13-41
+30            android:banner="@drawable/app_banner"
+30-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:22:13-50
+31            android:exported="true"
+31-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:26:13-36
+32            android:icon="@drawable/app_icon"
+32-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:23:13-46
+33            android:logo="@drawable/app_icon"
+33-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:24:13-46
+34            android:screenOrientation="landscape" >
+34-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:25:13-50
+35            <intent-filter>
+35-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:27:13-30:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:28:17-69
+36-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:28:25-66
+37
+38                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+38-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:29:17-86
+38-->E:\WEB_DEVELOPMENT\firetv\ClaudeClock\claudeclock01\app\src\main\AndroidManifest.xml:29:27-83
+39            </intent-filter>
+40        </activity>
+41
+42        <provider
+42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dean\.gradle\caches\8.12\transforms\63a3498c4046c254f0278a9d3c663cda\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+43            android:name="androidx.startup.InitializationProvider"
+43-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dean\.gradle\caches\8.12\transforms\63a3498c4046c254f0278a9d3c663cda\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+44            android:authorities="com.example.firetvclockapp.androidx-startup"
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dean\.gradle\caches\8.12\transforms\63a3498c4046c254f0278a9d3c663cda\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+45            android:exported="false" >
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dean\.gradle\caches\8.12\transforms\63a3498c4046c254f0278a9d3c663cda\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+46            <meta-data
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dean\.gradle\caches\8.12\transforms\63a3498c4046c254f0278a9d3c663cda\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+47                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dean\.gradle\caches\8.12\transforms\63a3498c4046c254f0278a9d3c663cda\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+48                android:value="androidx.startup" />
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\dean\.gradle\caches\8.12\transforms\63a3498c4046c254f0278a9d3c663cda\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+49            <meta-data
+49-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dean\.gradle\caches\8.12\transforms\436c774165f492a2d00be18b8d94a90c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+50                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+50-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dean\.gradle\caches\8.12\transforms\436c774165f492a2d00be18b8d94a90c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+51                android:value="androidx.startup" />
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\dean\.gradle\caches\8.12\transforms\436c774165f492a2d00be18b8d94a90c\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+52        </provider>
+53    </application>
+54
+55</manifest>
